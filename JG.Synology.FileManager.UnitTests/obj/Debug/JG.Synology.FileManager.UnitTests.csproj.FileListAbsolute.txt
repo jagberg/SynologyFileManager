@@ -1,0 +1,12 @@
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\JG.Synology.FileManager.UnitTests.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\JG.Synology.FileManager.UnitTests.pdb
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\JG.Synology.FileManager.Service.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\JG.Synology.CrossCutting.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\Newtonsoft.Json.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\JG.Synology.FileManager.Service.pdb
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\nunit.framework.xml
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\JG.Synology.CrossCutting.pdb
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\bin\Debug\Newtonsoft.Json.xml
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\obj\Debug\JG.Synology.FileManager.UnitTests.csprojResolveAssemblyReference.cache
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\obj\Debug\JG.Synology.FileManager.UnitTests.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.UnitTests\obj\Debug\JG.Synology.FileManager.UnitTests.pdb

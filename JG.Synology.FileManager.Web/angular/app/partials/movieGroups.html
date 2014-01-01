@@ -1,0 +1,33 @@
+﻿<div ng-animate>
+
+   <!-- <div ng-init="names=['Igor Minar', 'Brad Green', 'Dave Geddes', 'Naomi Black', 'Greg Weber', 'Dean Sofer', 'Wes Alvaro', 'John Scott', 'Daniel Nadasi'];">
+        <form>
+            <div>
+                <input type="text" ng-model="search" class="search-query1" style="width: 80px">
+                <button type="submit" class="btn">Search</button>
+            </div>
+            <ul>
+                <li class="reveal-animation" ng-repeat="name in names | filter:search">
+                    <a href="#">{{name}} </a>
+                </li>
+            </ul>
+        </form>
+    </div>-->
+    <div class="input-append">
+        <input type="text" ng-model="search" class="search-query" style="width: 80px">
+        <button type="submit" class="btn">Search</button>
+    </div>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Movie Group</th>
+                <th>Related Movie Files</th>
+            </tr>
+        </thead>
+
+        <tr class="reveal-animation" ng-repeat="movieGroup in movieGroups  | filter:search">
+            <td ng-bind="movieGroup.movieGroupName"></td>
+            <td><a href="#/movieFile/{{movieGroup.movieGroupName}}">{{movieGroup.location}}</a></td>
+        </tr>
+    </table>
+</div>

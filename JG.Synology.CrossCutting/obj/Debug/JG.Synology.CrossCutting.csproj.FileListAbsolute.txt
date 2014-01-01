@@ -1,0 +1,4 @@
+C:\Code\SynologyFileSort\JG.Synology.CrossCutting\bin\Debug\JG.Synology.CrossCutting.dll
+C:\Code\SynologyFileSort\JG.Synology.CrossCutting\bin\Debug\JG.Synology.CrossCutting.pdb
+C:\Code\SynologyFileSort\JG.Synology.CrossCutting\obj\Debug\JG.Synology.CrossCutting.dll
+C:\Code\SynologyFileSort\JG.Synology.CrossCutting\obj\Debug\JG.Synology.CrossCutting.pdb

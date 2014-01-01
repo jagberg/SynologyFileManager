@@ -1,0 +1,15 @@
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\JG.Synology.FileManager.Service.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\JG.Synology.FileManager.Service.pdb
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\JG.Synology.CrossCutting.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\System.Net.Http.Formatting.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\System.Web.Http.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\System.Web.Http.WebHost.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\JG.Synology.CrossCutting.pdb
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\System.Net.Http.Formatting.xml
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\System.Web.Http.xml
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\bin\Debug\System.Web.Http.WebHost.xml
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\obj\Debug\JG.Synology.FileManager.Service.csprojResolveAssemblyReference.cache
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\obj\Debug\JG.Synology.FileManager.Service.dll
+C:\Code\SynologyFileSort\JG.Synology.FileManager.Service\obj\Debug\JG.Synology.FileManager.Service.pdb

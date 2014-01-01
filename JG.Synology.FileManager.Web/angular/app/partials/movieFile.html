@@ -1,0 +1,29 @@
+﻿<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Chosen</th>
+            <th>Movie</th>
+            <th>Movie Files</th>
+        </tr>
+    </thead>
+
+    <tr ng-repeat="movieFile in movieGroups">
+        <td ng-bind="movieFile.movieFiles.fileName"></td>
+        <td ng-bind="movieFile.location"></td>
+    </tr>
+</table>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>Chosen1</th>
+            <th>Movie</th>
+            <th>Movie Files</th>
+        </tr>
+    </thead>
+
+    <tr ng-repeat="movieFile in movieGroups[1].movieFiles">
+        <td ng-bind="movieFile.fileName"></td>
+        <td ng-bind="movieFile.location"></td>
+    </tr>
+</table>
+
