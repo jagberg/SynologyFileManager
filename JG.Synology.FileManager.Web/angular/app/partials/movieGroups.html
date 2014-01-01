@@ -1,4 +1,4 @@
-﻿<div ng-animate>
+﻿<div ng-controller="MovieGroupController">
 
    <!-- <div ng-init="names=['Igor Minar', 'Brad Green', 'Dave Geddes', 'Naomi Black', 'Greg Weber', 'Dean Sofer', 'Wes Alvaro', 'John Scott', 'Daniel Nadasi'];">
         <form>
@@ -25,9 +25,9 @@
             </tr>
         </thead>
 
-        <tr class="reveal-animation" ng-repeat="movieGroup in movieGroups  | filter:search">
+        <tr class="reveal-animation" ng-repeat="movieGroup in movieGroups | filter:search">
             <td ng-bind="movieGroup.movieGroupName"></td>
-            <td><a href="#/movieFile/{{movieGroup.movieGroupName}}">{{movieGroup.location}}</a></td>
+            <td><a href="#/movieFile/{{movieGroup.movieGroupName}}"><span class="badge pull-right">{{movieGroup.movieFiles.length}}</span></a></td>
         </tr>
     </table>
 </div>

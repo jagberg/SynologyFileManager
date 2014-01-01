@@ -5,7 +5,7 @@ app.config(function ($routeProvider) {
     $routeProvider
         .when('/',
             {
-                controller: 'MovieFileController',
+                controller: 'MovieGroupController',
                 templateUrl: '/angular/app/partials/movieGroups.html'
             })
         //Define a route that has a route parameter in it (:customerID)

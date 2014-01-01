@@ -2,6 +2,17 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div ng-controller="MovieFileController">
-    <div ng-view></div>
+<div class="container">
+
+    <div class="hero-unit">
+        <h1>Synology File Manager</h1>
+    </div>
+    <!-- .hero-unit -->
+
+    <div class="row">
+
+        <div class="span8">
+            <div class="reveal-animation" ng-view></div>
+        </div>
+    </div>
 </div>
