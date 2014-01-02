@@ -7,7 +7,37 @@ fileManagerControllers.controller('MovieGroupController', function ($scope, movi
         $scope.movieGroups = movieFileService.getMovieGroups();
     };
 
+    $scope.filterMovieGroups = function (movieGroup) {
+        var showMovieGroupsOnly = $scope.showMovieGroupsOnly;
 
+        if (!showMovieGroupsOnly) {
+            return true; // Display everything if this wasnt ticked.
+        }
+
+        if (movieGroup.isMovieGroup === showMovieGroupsOnly) {
+            return true; // this will be listed in the results
+        }
+
+        return false; // otherwise it won't be within the results
+    };
+
+    $scope.addMovieGroup = function (newMovieGroupName) {
+        var movieGroup = [];
+        var movieFiles = [];
+
+        movieGroup.movieGroupName = newMovieGroupName;
+        movieGroup.isMovieGroup = true;
+        movieGroup.location = "\\video\\" & newMovieGroupName;
+        movieGroup.movieFiles = movieFiles;
+
+        movieFileService.addMovieGroup(movieGroup);
+
+        //changeView('/');
+    }
+
+    function changeView(newLocation) {
+        $location.path(newLocation);
+    };
 });
 
 fileManagerControllers.controller('MovieFileController', function ($scope, $routeParams, $location, movieFileService) {

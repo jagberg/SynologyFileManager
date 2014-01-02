@@ -130,6 +130,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Content Include="angular\app\Controllers\movieController.js" />
+    <Content Include="angular\app\partials\editMovieFile.html" />
     <Content Include="angular\app\partials\movieFile.html" />
     <Content Include="Content\fileManager.css" />
     <Content Include="Scripts\angular-animate.js" />

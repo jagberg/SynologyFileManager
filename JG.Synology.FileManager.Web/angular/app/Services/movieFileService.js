@@ -65,6 +65,10 @@ app.service('movieFileService', function () {
         }
     };
 
+    this.addMovieGroup = function (newMovieGroup) {
+        movieGroups.push(newMovieGroup);
+    }
+
     var movieGroups = [
         {
             movieGroupName: 'Dexter', isMovieGroup: true, location: '\\video\Dexter',

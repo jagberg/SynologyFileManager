@@ -14,6 +14,12 @@ app.config(function ($routeProvider) {
                 controller: 'MovieFileController',
                 templateUrl: '/angular/app/partials/movieFile.html'
             })
+        //Define a route that has a route parameter in it (:customerID)
+        .when('/editMovieFile',
+            {
+                controller: 'MovieGroupController',
+                templateUrl: '/angular/app/partials/editMovieFile.html'
+            })
         ////Define a route that has a route parameter in it (:customerID)
         //.when('/orders',
         //    {
