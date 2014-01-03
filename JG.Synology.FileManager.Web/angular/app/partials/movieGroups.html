@@ -1,6 +1,6 @@
 ﻿<div ng-controller="MovieGroupController">
 
-   <!-- <div ng-init="names=['Igor Minar', 'Brad Green', 'Dave Geddes', 'Naomi Black', 'Greg Weber', 'Dean Sofer', 'Wes Alvaro', 'John Scott', 'Daniel Nadasi'];">
+    <!-- <div ng-init="names=['Igor Minar', 'Brad Green', 'Dave Geddes', 'Naomi Black', 'Greg Weber', 'Dean Sofer', 'Wes Alvaro', 'John Scott', 'Daniel Nadasi'];">
         <form>
             <div>
                 <input type="text" ng-model="search" class="search-query1" style="width: 80px">
@@ -13,11 +13,14 @@
             </ul>
         </form>
     </div>-->
-    <div class="input-append">
-        Search by Name: <input type="text" ng-model="search.movieGroupName" class="search-query" style="width: 80px">
-        Show Movie Groups Only:<input type="checkbox" ng-model="showMovieGroupsOnly" class="search-query" style="width: 80px">
+    <form class="form-inline" role="form">
+        <label>Search by Name:<input type="text" ng-model="search.movieGroupName" class="search-query" style="width: 80px"></label>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" ng-model="showMovieGroupsOnly" class="search-query" style="width: 80px">Show Movie Groups Only:</label>
+        </div>
         <button type="submit" class="btn">Search</button>
-    </div>
+    </form>
     <table class="table table-hover">
         <thead>
             <tr>

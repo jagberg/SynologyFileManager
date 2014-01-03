@@ -1,6 +1,13 @@
-﻿<div ng-controller="MovieGroupController">
-    <h2>Add New Movie Group</h2>
-    Name:
-    <input type="text" ng-model="movieGroupName" class="search-query" style="width: 80px">
-    <button class="btn" ng-click="addMovieGroup(movieGroupName)">Add</button>
-</div>
+﻿<h3>Add New Movie Group</h3>
+<form name="editMovieForm">
+    <div class="col-lg-6">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="New Movie Group Name" ng-model="newMovieGroupName" required>
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="button" ng-disabled="editMovieForm.$invalid" ng-click="addMovieGroup(newMovieGroupName)">Add</button>
+            </span>
+        </div>
+        <!-- /input-group -->
+    </div>
+    <!-- /.col-lg-6 -->
+</form>

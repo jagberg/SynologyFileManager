@@ -1,4 +1,4 @@
-﻿<div ng-controller="MovieFileController">
+﻿<div ng-controller="MovieGroupController">
     <table class="table table-hover">
         <thead>
             <tr>
@@ -10,7 +10,6 @@
 
         <tr ng-repeat="movieFile in movieGroupFile.movieFiles">
             <td>
-
                 <span class="input-group-addon">
                     <input type="checkbox" ng-model="movieFile.requiresMove" ng-checked="movieFile.requiresMove">
                 </span>
@@ -20,11 +19,14 @@
         </tr>
     </table>
     <div class="input-append">
-        <select class="form-control" ng-model="movGroupName.selected" ng-options="movieGroup.movieGroupName for movieGroup in movieGroups">
-        </select>
-        <input type="text" ng-model="search" class="search-query" style="width: 80px">
-        <br />
-        <button type="submit" class="btn" ng-click="assignMovieGroup()">Assign</button>
-        <a href="#/editMovieFile"><button type="submit" class="btn">New</button></a>
+        <div ng-show="!movieGroupDisplay.showEdit" >
+            <select class="form-control" ng-model="movGroupName.selected" ng-options="mg.movieGroupName for mg in movieGroups">
+            </select>
+            <input type="text" ng-model="search" class="search-query" style="width: 80px">
+            <br />
+            <button type="submit" class="btn" ng-click="assignMovieGroup()">Assign</button>
+            <button class="btn" ng-show="!movieGroupDisplay.showEdit" ng-click="movieGroupDisplay.showEdit = !movieGroupDisplay.showEdit">New</button>
+        </div>
+        <div class="reveal-animation" ng-if="movieGroupDisplay.showEdit" ng-include src="'/angular/app/partials//editMovieFile.html'"></div>
     </div>
 </div>
